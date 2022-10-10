@@ -1,1 +1,5 @@
-export * from './lib/lib-one';
+import { libOne } from './lib/lib-one';
+
+export { libOne } from './lib/lib-one';
+
+libOne();
